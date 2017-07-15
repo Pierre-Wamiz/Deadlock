@@ -81,6 +81,7 @@ class DeadlockCommand extends ContainerAwareCommand
         )->setParameter(1, $user->getId())->getResult();
     }
 
+    // Todo: inject to constructor
     private function initializeDependencies()
     {
         $container = $this->getContainer();
