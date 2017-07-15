@@ -70,9 +70,10 @@ class DeadlockCommand extends ContainerAwareCommand
 
     private function lockUser(User $user)
     {
+        // todo change to doctrine statements
         $this->entityManager->createNativeQuery(
             '
-                select * from deadlock_user u
+                select * from user u
                 where u.id=?
                 for update
             ',
