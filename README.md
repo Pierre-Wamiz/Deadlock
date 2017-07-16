@@ -3,6 +3,10 @@ An app that causes a database deadlock
 
 ## Requirements
 
+### Prerequisites
+
+Ubuntu 16.04 and later.
+
 ### Install Docker
 ```
 sudo apt-get install docker docker.io docker-compose
@@ -14,6 +18,7 @@ https://docs.docker.com/engine/installation/linux/linux-postinstall/#manage-dock
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+Re-login for user groups to reload.
 
 ## Setup
 
