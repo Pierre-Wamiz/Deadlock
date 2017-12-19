@@ -43,7 +43,7 @@ Within 5 seconds in another terminal run
 ```
 docker-compose run deadlock bin/console deadlock b
 ```
-You will get a deadlock in the first process.
+You will get a deadlock in the first process. The deadlock process is explained in deadlock-scheme.jpg.
 
 ## Teardown
 
