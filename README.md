@@ -1,6 +1,10 @@
 An app that causes a database deadlock
 ======================================
 
+## Scheme
+
+See [deadlock-scheme.jpg](deadlock-scheme.jpg)
+
 ## Requirements
 
 ### Prerequisites
